@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo img {
+  width: 50px;
+  height: 50px;
+}
+.header__registration {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  .header__registration {
+    display: flex;
+  }
+}/*# sourceMappingURL=main.css.map */
